@@ -1,15 +1,29 @@
 <VRTDataset rasterXSize="1356" rasterYSize="1308">
-<GeoTransform>29.2, 0.008333333, 0, -0.9, 0, -0.008333333</GeoTransform>
-<SRS>+proj=longlat +ellps=WGS84</SRS>
-	<VRTRasterBand dataType="Int16" band="1" subClass="VRTRawRasterBand">
-		<Description>TZA_msk_cov</Description>
-		<SourceFilename relativetoVRT="1">TZA_msk_cov.gri</SourceFilename>
-		<ImageOffset>0</ImageOffset>
-		<PixelOffset>2</PixelOffset>
-		<LineOffset>2712</LineOffset>
-		<ByteOrder>LSB</ByteOrder>
-		<NoDataValue>-9999</NoDataValue>
-		<Offset>0</Offset>
-		<Scale>1</Scale>
-	</VRTRasterBand>
+  <SRS>GEOGCS["WGS 84",DATUM["unknown",SPHEROID["WGS84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]]</SRS>
+  <GeoTransform>  2.9199999999999999e+01,  8.3333330000000001e-03,  0.0000000000000000e+00, -9.0000000000000002e-01,  0.0000000000000000e+00, -8.3333330000000001e-03</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1" subClass="VRTRawRasterBand">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">20</MDI>
+      <MDI key="STATISTICS_MEAN">10.636197440585</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">6.05020950396</MDI>
+    </Metadata>
+    <Description>TZA_msk_cov</Description>
+    <NoDataValue>-9999</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>0.525</HistMin>
+        <HistMax>20.475</HistMax>
+        <BucketCount>20</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>401|3943|5880|0|0|0|0|17|10|0|0|6257|4547|128|58|7530|4|0|12|2392</HistCounts>
+      </HistItem>
+    </Histograms>
+    <SourceFilename relativeToVRT="1">TZA_msk_cov.gri</SourceFilename>
+    <ImageOffset>0</ImageOffset>
+    <PixelOffset>2</PixelOffset>
+    <LineOffset>2712</LineOffset>
+    <ByteOrder>LSB</ByteOrder>
+  </VRTRasterBand>
 </VRTDataset>
