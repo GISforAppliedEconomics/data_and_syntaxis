@@ -69,7 +69,7 @@ for feat in murdock_shp.getFeatures():
                         # Update extend
 #                        resultl.updateExtents()
                         
-output = QgsVectorFileWriter.writeAsVectorFormat(resultl, "my_shapes.shp",
+output = QgsVectorFileWriter.writeAsVectorFormat(resultl, "murdock_particioned∫∫.shp",
                                                 "CP1250", None,
                                                 "ESRI Shapefile")
 
